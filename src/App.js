@@ -32,7 +32,7 @@ function App() {
         <div className='btnContainer'>
           <button onClick={getQuote} className='btn'>Get Quote</button>
           <a
-           href={`https://linkedin.com/intent/feed?text=${quotes.text}`} className='btn'>
+           href={`https://twitter.com/intent/tweet?text=${quotes.text}`} className='btn'>
             Tweet
           </a>
         </div>
